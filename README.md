@@ -41,14 +41,14 @@ BankingSystem/
 
 5. Bank.java - Represents a bank with a list of customers and accounts.
 - Fields: customers, accounts
-- Methods: addCustomer, removeCustomer, getCustomer, addAccount, removeAccount, getAccount, performTransaction
+- Methods: addCustomer, removeCustomer, findCustomer, addAccount, removeAccount, findAccount, performTransaction
 - OOPS Principles: Encapsulation, Abstraction
 
 6. Transaction.java - Represents a transaction between two accounts.
 - Fields: accountNumber, type, amount
 
 7. Exceptions - Contains custom exception classes.
-- InsufficientFundsException.java - Thrown when a withdrawal is attempted with insufficient funds.
+- InsufficientBalanceException.java - Thrown when a withdrawal is attempted with insufficient funds.
 - InvalidAmountException.java - Thrown when an invalid amount is used in a transaction.
 
 8. Main.java - Contains the main method to run the program.  
